@@ -22,6 +22,24 @@ nav:hover {
   background: var(--color-text-secondary-dim);
 }
 
+.hamburgerMenu.open {
+  animation: 400ms ease-in 0s hamburgerMenuOpenAnimation forwards;
+}
+.hamburgerMenu.open > .top {
+  animation: 400ms ease-in 0s topOpen forwards;
+}
+.hamburgerMenu.open > .last {
+  animation: 400ms ease-in 0s lastOpen forwards;
+}
+.hamburgerMenu.close {
+  animation: 400ms ease-in 0s hamburgerMenuCloseAnimation forwards;
+}
+.hamburgerMenu.close > .top {
+  animation: 400ms ease-in 0s topClose forwards;
+}
+.hamburgerMenu.close > .last {
+  animation: 400ms ease-in 0s lastClose forwards;
+}
 @keyframes topOpen {
   0% {
     transform: rotate(0deg);
@@ -29,12 +47,28 @@ nav:hover {
   }
   50% {
     transform: rotate(0deg);
-    margin-bottom: -5px;
+    margin-bottom: -4px;
   }
   100% {
-    transform: rotate(135deg);
+    margin-bottom: -1px;
+    transform: rotate(-45deg);
   }
 }
+@keyframes topClose {
+  0% {
+    transform: rotate(-45deg);
+    margin-bottom: -1px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-bottom: -4px;
+  }
+  100% {
+    margin-bottom: 0px;
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes lastOpen {
   0% {
     transform: rotate(0deg);
@@ -42,21 +76,47 @@ nav:hover {
   }
   50% {
     transform: rotate(0deg);
-    margin-top: -5px;
+    margin-top: -4px;
   }
   100% {
+    margin-top: -1px;
     transform: rotate(45deg);
   }
 }
+@keyframes lastClose {
+  0% {
+    transform: rotate(45deg);
+    margin-top: -1px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-top: -4px;
+  }
+  100% {
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+}
 
-@keyframes hamburgerMenuAnimation{
-	0%{
-	}
+@keyframes hamburgerMenuOpenAnimation {
+  0% {
+  }
 
-	50%{
-		gap : 1em;
-	}
-	100%{
-		gap : 0em;
-	}
+  50% {
+    gap: 6px;
+  }
+  100% {
+    gap: 0px;
+  }
+}
+@keyframes hamburgerMenuCloseAnimation {
+  0% {
+    gap: 0px;
+  }
+
+  50% {
+    gap: 6px;
+  }
+  100% {
+  }
 }
