@@ -1,0 +1,260 @@
+nav {
+  padding: 0em 1em;
+  background-color: #313132;
+  color: var(--color-text-secondary-dim);
+  filter: blur(5%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@keyframes NavBackgroundOpen {
+  0% {
+    background-color: #313132;
+  }
+
+  50% {
+    background-color: var(--color-text-primary);
+  }
+  100% {
+    background-color: var(--color-text-primary);
+  }
+}
+@keyframes NavBackgroundClose {
+  0% {
+    background-color: var(--color-text-primary);
+  }
+
+  50% {
+    background-color: var(--color-text-primary);
+  }
+  100% {
+    background-color: #313132;
+  }
+}
+
+nav.open {
+  animation: 350ms ease-in 0s NavBackgroundOpen forwards;
+}
+nav.close {
+  animation: 350ms ease-in 0s NavBackgroundClose forwards;
+}
+nav:hover {
+  color: var(--color-text-secondary);
+}
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+.lines {
+  width: 17px;
+  height: 2px;
+  background: var(--color-text-secondary-dim);
+}
+
+.hamburgerMenu.open {
+  animation: 350ms ease-in 0s hamburgerMenuOpenAnimation forwards;
+}
+.hamburgerMenu.open > .top {
+  animation: 350ms ease-in 0s topOpen forwards;
+}
+.hamburgerMenu.open > .last {
+  animation: 350ms ease-in 0s lastOpen forwards;
+}
+.hamburgerMenu.close {
+  animation: 350ms ease-in 0s hamburgerMenuCloseAnimation forwards;
+}
+.hamburgerMenu.close > .top {
+  animation: 350ms ease-in 0s topClose forwards;
+}
+.hamburgerMenu.close > .last {
+  animation: 350ms ease-in 0s lastClose forwards;
+}
+@keyframes topOpen {
+  0% {
+    transform: rotate(0deg);
+    margin-bottom: 0px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-bottom: -4px;
+  }
+  100% {
+    margin-bottom: -1px;
+    transform: rotate(-45deg);
+  }
+}
+@keyframes topClose {
+  0% {
+    transform: rotate(-45deg);
+    margin-bottom: -1px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-bottom: -4px;
+  }
+  100% {
+    margin-bottom: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes lastOpen {
+  0% {
+    transform: rotate(0deg);
+    margin-top: 0px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-top: -4px;
+  }
+  100% {
+    margin-top: -1px;
+    transform: rotate(45deg);
+  }
+}
+@keyframes lastClose {
+  0% {
+    transform: rotate(45deg);
+    margin-top: -1px;
+  }
+  50% {
+    transform: rotate(0deg);
+    margin-top: -4px;
+  }
+  100% {
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes hamburgerMenuOpenAnimation {
+  0% {
+  }
+
+  50% {
+    gap: 6px;
+  }
+  100% {
+    gap: 0px;
+  }
+}
+@keyframes hamburgerMenuCloseAnimation {
+  0% {
+    gap: 0px;
+  }
+
+  50% {
+    gap: 6px;
+  }
+  100% {
+  }
+}
+
+.smallScreenSizeNavbar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.navbarBody {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-text-primary);
+  transform: scaleY(0);
+  transform-origin: top;
+}
+@keyframes smallNavbarOpen {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes smallNavbarClose {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+.navbarBody.open {
+  animation: 350ms ease-in 0s smallNavbarOpen forwards;
+}
+.navbarBody.close {
+  animation: 350ms ease-in 0s smallNavbarClose forwards;
+}
+
+.store {
+  opacity: 1;
+}
+
+@keyframes storeOpacityHighToLow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes storeOpacityLowToHigh {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.store.open {
+  animation: 350ms ease-in 0s storeOpacityHighToLow forwards;
+}
+
+.store.close {
+  animation: 350ms ease-in 0s storeOpacityLowToHigh forwards;
+}
+
+.NavLinks {
+  color: var(--color-text-secondary-dim);
+  text-decoration: none;
+}
+.NavLinks:hover {
+  color: white;
+}
+
+.desktopLinksBlock {
+  display: flex;
+  width: 90%;
+  max-width: 1024px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 836px) {
+  nav {
+    justify-content: center;
+  }
+}
