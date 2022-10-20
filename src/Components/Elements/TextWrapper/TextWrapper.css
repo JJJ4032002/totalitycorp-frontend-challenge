@@ -1,0 +1,11 @@
+.textWrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .textWrapper {
+    transform: none;
+    justify-content: start;
+  }
+}
