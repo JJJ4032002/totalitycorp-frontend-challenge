@@ -1,0 +1,28 @@
+.IpadPro {
+  background-image: url(../../assets/SmallScreenImages/SmalliPadPro.jpg);
+}
+.IpadProText {
+  top: 11%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .IpadPro {
+    height: 694px;
+    background-size: cover 694px;
+    background-position: center;
+  }
+  .IpadProText {
+    justify-content: center;
+  }
+}
+@media (min-width: 1008px) {
+  .IpadProText {
+    left: 10%;
+    top: 40%;
+    justify-content: start;
+  }
+  .IpadPro {
+    background-image: url(../../assets/Images/IpadPro.jpg);
+    height: 624px;
+  }
+}
