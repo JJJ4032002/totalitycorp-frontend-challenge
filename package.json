@@ -2,7 +2,7 @@
   "name": "totality-corp",
   "version": "0.1.0",
   "private": true,
-  "home": "https://JJJ4032002.github.io/totalitycorp-frontend-challenge",
+  "homepage": "https://JJJ4032002.github.io/totalitycorp-frontend-challenge",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
