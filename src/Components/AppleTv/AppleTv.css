@@ -1,0 +1,16 @@
+.AppleTv {
+  background-image: url(../../assets/SmallScreenImages/SmallAppleTv.jpg);
+}
+.AppleTvText {
+  top: 11%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .AppleTv {
+    background-image: url(../../assets/Images/AppleTv.jpg);
+  }
+  .AppleTvText {
+    top: 70%;
+    justify-content: center;
+  }
+}
