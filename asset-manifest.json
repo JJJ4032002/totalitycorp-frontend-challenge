@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.481552f7.css",
-    "main.js": "/static/js/main.71360748.js",
-    "static/js/787.45ec9d91.chunk.js": "/static/js/787.45ec9d91.chunk.js",
-    "static/media/FontsFree-Net-SFProText-Regular.ttf": "/static/media/FontsFree-Net-SFProText-Regular.90da7ab18293ca42e335.ttf",
-    "static/media/IpadPro.jpg": "/static/media/IpadPro.8295dffe882d31989830.jpg",
-    "static/media/SmalliPadPro.jpg": "/static/media/SmalliPadPro.2a85bfd07aa1ee0fe04f.jpg",
-    "static/media/AppleTv.jpg": "/static/media/AppleTv.8df70bb2594c012940dc.jpg",
-    "static/media/Ipad.jpg": "/static/media/Ipad.99fa92dff0df6bfbdf27.jpg",
-    "static/media/SmalliPad.jpg": "/static/media/SmalliPad.1cd00f62509441f914ce.jpg",
-    "static/media/SmallAppleTv.jpg": "/static/media/SmallAppleTv.917c30841239ac0969f6.jpg",
-    "static/media/appleLogo.svg": "/static/media/appleLogo.3fcc10a887b2848c0d3f2589ab7b7ccf.svg",
-    "index.html": "/index.html",
-    "static/media/store.svg": "/static/media/store.d3a8a02cfc4d4f0a29dd1de9dd04408c.svg",
-    "static/media/Search.svg": "/static/media/Search.86bb28287a534677133f09802cd82937.svg",
-    "static/media/Right.svg": "/static/media/Right.19089cad9d92857a18ed.svg",
-    "main.481552f7.css.map": "/static/css/main.481552f7.css.map",
-    "main.71360748.js.map": "/static/js/main.71360748.js.map",
-    "787.45ec9d91.chunk.js.map": "/static/js/787.45ec9d91.chunk.js.map"
+    "main.css": "/totalitycorp-frontend-challenge/static/css/main.69d7dca6.css",
+    "main.js": "/totalitycorp-frontend-challenge/static/js/main.1a2cf1af.js",
+    "static/js/787.45ec9d91.chunk.js": "/totalitycorp-frontend-challenge/static/js/787.45ec9d91.chunk.js",
+    "static/media/FontsFree-Net-SFProText-Regular.ttf": "/totalitycorp-frontend-challenge/static/media/FontsFree-Net-SFProText-Regular.90da7ab18293ca42e335.ttf",
+    "static/media/IpadPro.jpg": "/totalitycorp-frontend-challenge/static/media/IpadPro.8295dffe882d31989830.jpg",
+    "static/media/SmalliPadPro.jpg": "/totalitycorp-frontend-challenge/static/media/SmalliPadPro.2a85bfd07aa1ee0fe04f.jpg",
+    "static/media/AppleTv.jpg": "/totalitycorp-frontend-challenge/static/media/AppleTv.8df70bb2594c012940dc.jpg",
+    "static/media/Ipad.jpg": "/totalitycorp-frontend-challenge/static/media/Ipad.99fa92dff0df6bfbdf27.jpg",
+    "static/media/SmalliPad.jpg": "/totalitycorp-frontend-challenge/static/media/SmalliPad.1cd00f62509441f914ce.jpg",
+    "static/media/SmallAppleTv.jpg": "/totalitycorp-frontend-challenge/static/media/SmallAppleTv.917c30841239ac0969f6.jpg",
+    "index.html": "/totalitycorp-frontend-challenge/index.html",
+    "static/media/appleLogo.svg": "/totalitycorp-frontend-challenge/static/media/appleLogo.3fcc10a887b2848c0d3f2589ab7b7ccf.svg",
+    "static/media/store.svg": "/totalitycorp-frontend-challenge/static/media/store.d3a8a02cfc4d4f0a29dd1de9dd04408c.svg",
+    "static/media/Search.svg": "/totalitycorp-frontend-challenge/static/media/Search.86bb28287a534677133f09802cd82937.svg",
+    "static/media/Right.svg": "/totalitycorp-frontend-challenge/static/media/Right.19089cad9d92857a18ed.svg",
+    "main.69d7dca6.css.map": "/totalitycorp-frontend-challenge/static/css/main.69d7dca6.css.map",
+    "main.1a2cf1af.js.map": "/totalitycorp-frontend-challenge/static/js/main.1a2cf1af.js.map",
+    "787.45ec9d91.chunk.js.map": "/totalitycorp-frontend-challenge/static/js/787.45ec9d91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.481552f7.css",
-    "static/js/main.71360748.js"
+    "static/css/main.69d7dca6.css",
+    "static/js/main.1a2cf1af.js"
   ]
 }
