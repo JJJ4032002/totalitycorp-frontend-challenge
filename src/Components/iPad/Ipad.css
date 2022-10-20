@@ -1,0 +1,16 @@
+.Ipad {
+  background-image: url(../../assets/SmallScreenImages/SmalliPad.jpg);
+}
+.IpadText {
+  top: 12%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .Ipad {
+    background-image: url(../../assets/Images/Ipad.jpg);
+  }
+  .IpadText {
+    left: 50%;
+    top: 40%;
+  }
+}
