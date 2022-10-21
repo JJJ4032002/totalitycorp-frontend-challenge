@@ -52,7 +52,7 @@
   }
   .grid {
     grid-template-columns: repeat(2, 1fr);
-    height: 580px;
+    grid-auto-rows: 580px;
   }
   .product {
     height: 580px;
