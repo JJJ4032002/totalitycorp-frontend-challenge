@@ -5,7 +5,12 @@ function TextBlock({ theme, heading, tagline, availability }) {
     <div className={`textContent ${theme}`}>
       {heading}
       {tagline}
-      <p className="availability">{availability}</p>
+      {availability === undefined ? (
+        ""
+      ) : (
+        <p className="availability">{availability}</p>
+      )}
+
       <div className="Links">
         <a className="Link" href="">
           Learn more

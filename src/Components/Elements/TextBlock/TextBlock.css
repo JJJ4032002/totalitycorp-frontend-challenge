@@ -10,6 +10,7 @@
 }
 .tagline {
   font-size: clamp(1rem, 0.475rem + 2.3333vw, 1.7rem);
+  text-align: center;
 }
 .tagLineBlock {
   display: flex;
