@@ -8,6 +8,7 @@
   --color-text-primary: black;
   --color-text-secondary: white;
   --color-text-secondary-dim: rgba(255, 255, 255, 0.92);
+  --color-Highlighted: #06c;
 }
 @font-face {
   font-family: "SF PRO TEXT";
