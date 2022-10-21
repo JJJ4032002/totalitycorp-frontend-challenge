@@ -1,7 +1,28 @@
 import WatchUltraLogo from "./assets/Images/WatchUltraLogo.png";
 import Watch8Logo from "./assets/Images/Watch8Logo.png";
 import AppleCardLogo from "./assets/Images/AppleCardLogo.png";
-
+import RaymondRay from "./assets/Images/Carousel/RaymondRay.jpg";
+import Shantaram from "./assets/Images/Carousel/Shantaram.jpg";
+import See from "./assets/Images/Carousel/See.jpg";
+import GreatPumpkin from "./assets/Images/Carousel/GreatPumpkin.jpg";
+import Luck from "./assets/Images/Carousel/Luck.jpg";
+import MorningShow from "./assets/Images/Carousel/MorningShow.jpg";
+import BlackBird from "./assets/Images/Carousel/BlackBird.jpg";
+import BadSisters from "./assets/Images/Carousel/BadSisters.jpg";
+import BeerRun from "./assets/Images/Carousel/BeerRun.jpg";
+import Severance from "./assets/Images/Carousel/Severance.jpg";
+import TedLasso from "./assets/Images/Carousel/TedLasso.jpg";
+import SmallSeverance from "./assets/SmallScreenImages/SmallCarousel/SmallSeverance.jpg";
+import SmallShantaram from "./assets/SmallScreenImages/SmallCarousel/SmallShantaram.jpg";
+import SmallBadSisters from "./assets/SmallScreenImages/SmallCarousel/SmallBadSisters.jpg";
+import SmallGreatPumpkin from "./assets/SmallScreenImages/SmallCarousel/SmallGreatPumpkin.jpg";
+import SmallBlackBird from "./assets/SmallScreenImages/SmallCarousel/SmallBlackBird.jpg";
+import SmallMorningShow from "./assets/SmallScreenImages/SmallCarousel/SmallMorningShow.jpg";
+import SmallBeerRun from "./assets/SmallScreenImages/SmallCarousel/SmallBeerRun.jpg";
+import SmallSee from "./assets/SmallScreenImages/SmallCarousel/SmallSee.jpg";
+import SmallTedLasso from "./assets/SmallScreenImages/SmallCarousel/SmallTedLasso.jpg";
+import SmallLuck from "./assets/SmallScreenImages/SmallCarousel/SmallLuck.jpg";
+import SmallRayRaymond from "./assets/SmallScreenImages/SmallCarousel/SmallRayRaymond.jpg";
 const LinksList = [
   "Store",
   "Mac",
@@ -86,4 +107,31 @@ const GalleryList = [
   },
 ];
 
-export { LinksList, GalleryList };
+const ImageList = [
+  { img: RaymondRay, name: "RaymondRay" },
+  { img: See, name: "See" },
+  { img: Severance, name: "Severance" },
+  { img: BadSisters, name: "BadSisters" },
+  { img: BeerRun, name: "BeerRun" },
+  { img: Luck, name: "Luck" },
+  { img: MorningShow, name: "MorningShow" },
+  { img: TedLasso, name: "TedLasso" },
+  { img: BlackBird, name: "BlackBird" },
+  { img: GreatPumpkin, name: "GreatPumpkin" },
+  { img: Shantaram, name: "Shantaram" },
+];
+const SmallScreenImageList = [
+  { img: SmallShantaram, name: "SmallShantaram" },
+  { img: SmallLuck, name: "SmallLuck" },
+  { img: SmallTedLasso, name: "SmallTedLasso" },
+  { img: SmallBadSisters, name: "SmallBadSisters" },
+  { img: SmallBeerRun, name: "SmallBeerRun" },
+  { img: SmallBlackBird, name: "SmallBlackBird" },
+  { img: SmallMorningShow, name: "SmallMorningShow" },
+  { img: SmallSee, name: "SmallSee" },
+  { img: SmallSeverance, name: "SmallSeverance" },
+  { img: SmallGreatPumpkin, name: "SmallGreatPumpkin" },
+  { img: SmallRayRaymond, name: "SmallRayRaymond" },
+];
+
+export { LinksList, GalleryList, ImageList, SmallScreenImageList };
