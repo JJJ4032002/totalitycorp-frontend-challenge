@@ -48,10 +48,17 @@
   position: absolute;
   background-image: url(../../../assets/SVG/Right.svg);
   top: 1px;
-  background-size: 23px 23px;
+  background-size: 23px 19px;
   height: 100%;
   width: 23px;
 }
 .Link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .Link::after {
+    content: "";
+    background-size: 23px 23px;
+  }
 }
