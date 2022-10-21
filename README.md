@@ -8,7 +8,7 @@ Website Attepted - [Apple.com](https://www.apple.com/)
 
 ## Demo
 
-[Demo](./Demo/DemoImage.png)
+![Demo](./Demo/DemoImage.png)
 
 ## Tech Stack
 
