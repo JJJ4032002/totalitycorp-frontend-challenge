@@ -2,7 +2,7 @@ import React from "react";
 import "./AppleCardInfo.css";
 function AppleCardInfo() {
   return (
-    <ul>
+    <ul className="AppleCardInfoContainer">
       <li>
         To access and use all the features of Apple Card, you must add Apple
         Card to Wallet on an iPhone or iPad with the latest version of iOS or
