@@ -16,9 +16,10 @@
   font-size: 1.5rem;
 }
 .OptionListWrapper {
-  margin-left: 2em;
+  width: 95%;
   transform-origin: top;
   display: block;
+  margin-left: auto;
   padding: 0;
 }
 .Desktop {
@@ -33,12 +34,27 @@
 .ShowMore {
   width: 20px;
 }
-
+.DesktopOptionItem {
+  font-size: 0.9rem;
+}
+.OptionItem:hover,
+.DesktopOptionItem:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   .OptionsWrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 1fr;
     gap: 3em;
+  }
+  .OptionListWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .OptionsHeading {
+    color: var(--color-text-primary);
   }
 }
