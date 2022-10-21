@@ -1,0 +1,46 @@
+.CopyRightWrapper,
+.CopyRightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 0.8rem;
+}
+
+.HighLighted {
+  color: var(--color-Highlighted);
+}
+.HighLighted:hover {
+  text-decoration: underline;
+}
+.CopyRightContainer {
+  gap: 0.4em;
+}
+
+.CopyRightListContainer,
+.CopyRightListBlock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.5em;
+}
+.CopyRightListBlock {
+  width: max-content;
+}
+.VerticalDivider {
+  height: 100%;
+  width: 1px;
+  background-color: #6e6e73;
+}
+
+@media (min-width: 768px) {
+  .CopyRightContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+  .CopyRightListContainer {
+    justify-content: center;
+    width: max-content;
+  }
+}
