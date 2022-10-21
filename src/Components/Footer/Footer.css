@@ -1,5 +1,5 @@
 .FooterWrapper {
-  color: #6e6e73;
+  color: var(--color-text-footer);
   display: flex;
   flex-direction: column;
   padding-bottom: 2em;
@@ -12,5 +12,5 @@
   width: 100%;
   max-width: 1024px;
   height: 1px;
-  background-color: #d2d2d7;
+  background-color: var(--color-background-footer);
 }

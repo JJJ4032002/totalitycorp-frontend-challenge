@@ -22,7 +22,7 @@
   text-align: center;
 }
 .availability {
-  color: #6e6e73;
+  color: var(--color-text-footer);
   font-size: clamp(1rem, 0.85rem + 0.6667vw, 1.2rem);
 }
 .dark {
@@ -38,7 +38,7 @@
 }
 
 .Link {
-  color: #06c;
+  color: var(--color-highlighted);
   text-decoration: none;
   font-size: clamp(1rem, 0.85rem + 0.6667vw, 1.2rem);
   position: relative;

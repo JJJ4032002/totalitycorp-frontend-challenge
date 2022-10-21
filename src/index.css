@@ -8,7 +8,10 @@
   --color-text-primary: black;
   --color-text-secondary: white;
   --color-text-secondary-dim: rgba(255, 255, 255, 0.92);
-  --color-Highlighted: #06c;
+  --color-highlighted: #06c;
+  --color-text-footer: #6e6e73;
+  --color-background-footer: #d2d2d7;
+  --color-background-nav: #313132;
 }
 @font-face {
   font-family: "SF PRO TEXT";

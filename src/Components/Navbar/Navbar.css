@@ -1,6 +1,6 @@
 nav {
   padding: 0em 1em;
-  background-color: #313132;
+  background-color: var(--color-background-nav);
   color: var(--color-text-secondary-dim);
   filter: blur(5%);
   display: flex;
@@ -14,7 +14,7 @@ nav {
 
 @keyframes NavBackgroundOpen {
   0% {
-    background-color: #313132;
+    background-color: var(--color-background-nav);
   }
 
   50% {
@@ -33,7 +33,7 @@ nav {
     background-color: var(--color-text-primary);
   }
   100% {
-    background-color: #313132;
+    background-color: var(--color-background-nav);
   }
 }
 
@@ -241,7 +241,7 @@ nav:hover {
   text-decoration: none;
 }
 .NavLinks:hover {
-  color: white;
+  color: var(--color-text-secondary);
 }
 
 .desktopLinksBlock {
