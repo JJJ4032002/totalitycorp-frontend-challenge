@@ -23,6 +23,18 @@ import SmallSee from "./assets/SmallScreenImages/SmallCarousel/SmallSee.jpg";
 import SmallTedLasso from "./assets/SmallScreenImages/SmallCarousel/SmallTedLasso.jpg";
 import SmallLuck from "./assets/SmallScreenImages/SmallCarousel/SmallLuck.jpg";
 import SmallRayRaymond from "./assets/SmallScreenImages/SmallCarousel/SmallRayRaymond.jpg";
+import RaymondRayLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/RaymondRayLogo.png";
+import SeeLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/SeeLogo.png";
+import SeveranceLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/SeveranceLogo.png";
+import BadSistersLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/BadSistersLogo.png";
+import BeerRunLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/BeerRunLogo.png";
+import LuckLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/LuckLogo.png";
+import MorningShowLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/MorningShowLogo.png";
+import TedLassoLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/TedLassoLogo.png";
+import BlackBirdLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/BlackBirdLogo.png";
+import GreatPumpkinLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/GreatPumpkinLogo.png";
+import ShantaramLogo from "./assets/SmallScreenImages/SmallCarousel/Logos/ShantaramLogo.png";
+
 const LinksList = [
   "Store",
   "Mac",
@@ -121,17 +133,25 @@ const ImageList = [
   { img: Shantaram, name: "Shantaram" },
 ];
 const SmallScreenImageList = [
-  { img: SmallShantaram, name: "SmallShantaram" },
-  { img: SmallLuck, name: "SmallLuck" },
-  { img: SmallTedLasso, name: "SmallTedLasso" },
-  { img: SmallBadSisters, name: "SmallBadSisters" },
-  { img: SmallBeerRun, name: "SmallBeerRun" },
-  { img: SmallBlackBird, name: "SmallBlackBird" },
-  { img: SmallMorningShow, name: "SmallMorningShow" },
-  { img: SmallSee, name: "SmallSee" },
-  { img: SmallSeverance, name: "SmallSeverance" },
-  { img: SmallGreatPumpkin, name: "SmallGreatPumpkin" },
-  { img: SmallRayRaymond, name: "SmallRayRaymond" },
+  { img: SmallShantaram, name: "SmallShantaram", nameLogo: ShantaramLogo },
+  { img: SmallLuck, name: "SmallLuck", nameLogo: LuckLogo },
+  { img: SmallTedLasso, name: "SmallTedLasso", nameLogo: TedLassoLogo },
+  { img: SmallBadSisters, name: "SmallBadSisters", nameLogo: BadSistersLogo },
+  { img: SmallBeerRun, name: "SmallBeerRun", nameLogo: BeerRunLogo },
+  { img: SmallBlackBird, name: "SmallBlackBird", nameLogo: BlackBirdLogo },
+  {
+    img: SmallMorningShow,
+    name: "SmallMorningShow",
+    nameLogo: MorningShowLogo,
+  },
+  { img: SmallSee, name: "SmallSee", nameLogo: SeeLogo },
+  { img: SmallSeverance, name: "SmallSeverance", nameLogo: SeveranceLogo },
+  {
+    img: SmallGreatPumpkin,
+    name: "SmallGreatPumpkin",
+    nameLogo: GreatPumpkinLogo,
+  },
+  { img: SmallRayRaymond, name: "SmallRayRaymond", nameLogo: RaymondRayLogo },
 ];
 
 const OptionsList = [
@@ -352,7 +372,13 @@ let DesktopOptionList = [
     ],
   },
 ];
-
+let CopyRightList = [
+  "Privacy Policy",
+  "Terms of Use",
+  "Sales and Refunds",
+  "Legal",
+  "Site Map",
+];
 export {
   LinksList,
   GalleryList,
@@ -360,4 +386,5 @@ export {
   SmallScreenImageList,
   OptionsList,
   DesktopOptionList,
+  CopyRightList,
 };
