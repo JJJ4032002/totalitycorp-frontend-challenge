@@ -134,4 +134,230 @@ const SmallScreenImageList = [
   { img: SmallRayRaymond, name: "SmallRayRaymond" },
 ];
 
-export { LinksList, GalleryList, ImageList, SmallScreenImageList };
+const OptionsList = [
+  {
+    Heading: "Shop and Learn",
+    options: [
+      "Store",
+      "Mac",
+      "iPad",
+      "iPhone",
+      "Watch",
+      "AirPods",
+      "TV & Home",
+      "AirTag",
+      "Accessories",
+      "Gift Cards",
+    ],
+  },
+  {
+    Heading: "Services",
+    options: [
+      "Apple Music",
+      "Apple TV+",
+      "Apple Fitness+",
+      "Apple News+",
+      "Apple Arcade",
+      "iCloud",
+      "Apple One",
+      "Apple Card",
+      "Apple Books",
+      "Apple Podcasts",
+      "App Store",
+    ],
+  },
+  {
+    Heading: "Account",
+    options: ["Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
+  },
+  {
+    Heading: "Apple Store",
+    options: [
+      "Find a Store",
+      "Genius Bar",
+      "Today at Apple",
+      "Apple Camp",
+      "Apple Store App",
+      "Refurbished and Clearance",
+      "Financing",
+      "Apple Trade In",
+      "Order Status",
+      "Shopping Help",
+    ],
+  },
+  {
+    Heading: "For Business",
+    options: ["Apple and Business", "Shop for Business"],
+  },
+  {
+    Heading: "For Education",
+    options: ["Apple and Education", "Shop for K-12", "Shop for College"],
+  },
+  {
+    Heading: "For Healthcare",
+    options: [
+      "Apple in Healthcare",
+      "Health on Apple Watch",
+      "Health Records on iPhone",
+    ],
+  },
+  {
+    Heading: "For Government",
+    options: ["Shop for Government", "Shop for Veterans and Military"],
+  },
+  {
+    Heading: "Apple Values",
+    options: [
+      "Accessibility",
+      "Education",
+      "Environment",
+      "Inclusion and Diversity",
+      "Privacy",
+      "Racial Equity and Justice",
+      "Supplier Responsibility",
+    ],
+  },
+  {
+    Heading: "About Apple",
+    options: [
+      "Newsroom",
+      "Apple Leadership",
+      "Career Opportunities",
+      "Investors",
+      "Ethics and Compilance",
+      "Events",
+      "Contact Apple",
+    ],
+  },
+];
+
+let DesktopOptionList = [
+  {
+    Section: "Section1",
+    OptionLists: [
+      {
+        Heading: "Shop and Learn",
+        options: [
+          "Store",
+          "Mac",
+          "iPad",
+          "iPhone",
+          "Watch",
+          "AirPods",
+          "TV & Home",
+          "AirTag",
+          "Accessories",
+          "Gift Cards",
+        ],
+      },
+    ],
+  },
+  {
+    Section: "Section2",
+    OptionLists: [
+      {
+        Heading: "Services",
+        options: [
+          "Apple Music",
+          "Apple TV+",
+          "Apple Fitness+",
+          "Apple News+",
+          "Apple Arcade",
+          "iCloud",
+          "Apple One",
+          "Apple Card",
+          "Apple Books",
+          "Apple Podcasts",
+          "App Store",
+        ],
+      },
+      {
+        Heading: "Account",
+        options: ["Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
+      },
+    ],
+  },
+  {
+    Section: "Section3",
+    OptionLists: [
+      {
+        Heading: "Apple Store",
+        options: [
+          "Find a Store",
+          "Genius Bar",
+          "Today at Apple",
+          "Apple Camp",
+          "Apple Store App",
+          "Refurbished and Clearance",
+          "Financing",
+          "Apple Trade In",
+          "Order Status",
+          "Shopping Help",
+        ],
+      },
+    ],
+  },
+  {
+    Section: "Section4",
+    OptionLists: [
+      {
+        Heading: "For Business",
+        options: ["Apple and Business", "Shop for Business"],
+      },
+      {
+        Heading: "For Education",
+        options: ["Apple and Education", "Shop for K-12", "Shop for College"],
+      },
+      {
+        Heading: "For Healthcare",
+        options: [
+          "Apple in Healthcare",
+          "Health on Apple Watch",
+          "Health Records on iPhone",
+        ],
+      },
+      {
+        Heading: "For Government",
+        options: ["Shop for Government", "Shop for Veterans and Military"],
+      },
+    ],
+  },
+  {
+    Section: "Section5",
+    OptionLists: [
+      {
+        Heading: "Apple Values",
+        options: [
+          "Accessibility",
+          "Education",
+          "Environment",
+          "Inclusion and Diversity",
+          "Privacy",
+          "Racial Equity and Justice",
+          "Supplier Responsibility",
+        ],
+      },
+      {
+        Heading: "About Apple",
+        options: [
+          "Newsroom",
+          "Apple Leadership",
+          "Career Opportunities",
+          "Investors",
+          "Ethics and Compilance",
+          "Events",
+          "Contact Apple",
+        ],
+      },
+    ],
+  },
+];
+
+export {
+  LinksList,
+  GalleryList,
+  ImageList,
+  SmallScreenImageList,
+  OptionsList,
+  DesktopOptionList,
+};
