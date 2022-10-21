@@ -27,6 +27,29 @@
 }
 .SmallImageContainer {
   width: 274px;
+  position: relative;
+}
+
+.Info {
+  position: absolute;
+  width: 100%;
+  top: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.InfoHeader,
+.ShowName {
+  display: flex;
+  justify-content: center;
+}
+
+.NameLogoImage,
+.InfoHeaderImage {
+  width: 85%;
+}
+.InfoHeaderImage {
+  width: 30%;
 }
 
 .Buttons {

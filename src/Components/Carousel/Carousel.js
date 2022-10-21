@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ImageList, SmallScreenImageList } from "../../data";
 import "./Carousel.css";
 import useWindowSize from "../../hooks/useWindowSize";
+import AppleTvPlusLogo from "../../assets/SmallScreenImages/SmallCarousel/Logos/AppleTvPlusLogo.png";
 function Carousel() {
   let size = useWindowSize();
   let [currentTarget, setCurrentTarget] = useState(0);
@@ -19,6 +20,22 @@ function Carousel() {
                     src={element.img}
                     className="SmallImages"
                   ></img>
+                  <div className="Info">
+                    <div className="InfoHeader">
+                      <img
+                        className="InfoHeaderImage"
+                        src={AppleTvPlusLogo}
+                        alt="Apple Tv Plus Logo"
+                      />
+                    </div>
+                    <div className="ShowName">
+                      <img
+                        className="NameLogoImage"
+                        src={element.nameLogo}
+                        alt={element.name}
+                      />
+                    </div>
+                  </div>
                 </div>
               );
             })}
