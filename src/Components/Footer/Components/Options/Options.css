@@ -1,0 +1,44 @@
+.OptionsWrapper,
+.OptionsBlock,
+.DesktopOptionsBlock,
+.Section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 0.9rem;
+}
+
+.DesktopOptionsBlock {
+  gap: 0.4em;
+}
+.Section {
+  gap: 1em;
+  font-size: 1.5rem;
+}
+.OptionListWrapper {
+  margin-left: 2em;
+  transform-origin: top;
+  display: block;
+  padding: 0;
+}
+.Desktop {
+  margin-left: 0;
+}
+
+.OptionsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ShowMore {
+  width: 20px;
+}
+
+@media (min-width: 768px) {
+  .OptionsWrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 3em;
+  }
+}
