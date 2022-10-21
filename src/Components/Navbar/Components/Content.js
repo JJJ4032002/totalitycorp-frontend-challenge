@@ -1,7 +1,7 @@
 import React from "react";
 import "./Content.css";
 import search from "../../../assets/SVG/Search.svg";
-import LinksList from "../../../data";
+import { LinksList } from "../../../data";
 function Content() {
   return (
     <div className="wrapper">

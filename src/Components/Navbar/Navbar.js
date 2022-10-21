@@ -4,7 +4,7 @@ import store from "../../assets/SVG/store.svg";
 import "./Navbar.css";
 import Content from "./Components/Content";
 import useWindowSize from "../../hooks/useWindowSize";
-import LinksList from "../../data";
+import { LinksList } from "../../data";
 function Navbar() {
   let size = useWindowSize();
   console.log(size);
