@@ -1,0 +1,79 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 548px;
+  width: 98%;
+  margin: 0 auto;
+}
+.product {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 734px;
+  height: 548px;
+  overflow: hidden;
+  position: relative;
+}
+.Gallery .Heading {
+  font-size: clamp(1.5rem, 0.75rem + 3.3333vw, 2.5rem);
+}
+.Gallery .tagline {
+  font-size: clamp(1rem, 0.85rem + 0.6667vw, 1.2rem);
+}
+.Gallery {
+  width: 100%;
+  top: 10%;
+}
+
+.Iphone14Pro {
+  background-image: url(../../assets/SmallScreenImages/SmalliPhonePro.jpg);
+}
+.Iphone14 {
+  background-image: url(../../assets/SmallScreenImages/SmalliPhone14.jpg);
+}
+.WatchUltra {
+  background-image: url(../../assets/SmallScreenImages/SmallWatchUltra.jpg);
+}
+.Watch8 {
+  background-image: url(../../assets/SmallScreenImages/SmallWatch8.jpg);
+}
+.AirPodsPro {
+  background-image: url(../../assets/SmallScreenImages/SmallAirpodsPro.jpg);
+}
+
+.AppleCard {
+  background-image: url(../../assets/SmallScreenImages/SmallAppleCard.jpg);
+}
+
+@media (min-width: 768px) {
+  .Gallery {
+    justify-content: center;
+    top: 8%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: 580px;
+  }
+  .product {
+    height: 580px;
+    background-size: 1262px;
+  }
+  .Iphone14Pro {
+    background-image: url(../../assets/Images/Iphone14Pro.jpg);
+  }
+  .Iphone14 {
+    background-image: url(../../assets/Images/Iphone14.jpg);
+  }
+  .WatchUltra {
+    background-image: url(../../assets/Images/WatchUltra.jpg);
+  }
+  .Watch8 {
+    background-image: url(../../assets/Images/Watch8.jpg);
+  }
+  .AirPodsPro {
+    background-image: url(../../assets/Images/AirpodsPro.jpg);
+  }
+  .AppleCard {
+    background-image: url(../../assets/Images/AppleCard.jpg);
+  }
+}
